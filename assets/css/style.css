@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-/* header already exists as a tag in html so removed the period before header */
+/* header already exists as a tag in html so removed the period before header. Header is now an element. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +15,17 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+
+#seo {
     color: #d9dcd6;
 }
-
-header div {
+/* replacd div with nav to match HTML  tag */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,8 +33,10 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+li {
     list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 header div ul li {
