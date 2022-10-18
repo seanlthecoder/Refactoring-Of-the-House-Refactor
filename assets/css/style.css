@@ -164,6 +164,7 @@ main {
     color: #ffffff;
 }
 
+
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -171,6 +172,7 @@ main {
 .online-reputation-management img {
     max-height: 200px;
 }
+
 
 .social-media-marketing img {
     max-height: 200px;
@@ -191,13 +193,14 @@ main {
     font-size: 36px;
 }
 
+
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* removed . before footer to update to tag to match html */
 footer h2 {
     font-size: 20px;
 }
